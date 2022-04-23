@@ -8,3 +8,22 @@ We want to limit the gaming experience of others as little as possible (this exc
 If there is content you would like protected, feel free to contact us and have your content (worlds and avatars) locked.
 We have a very simple whitelist/backlist system that protects content creators (upon request).
 As you can see here, the mod is open source and we have nothing to hide.
+
+## What do we offer
+
+- Opensource
+- Transperency
+- Adherence to agreements with content creators
+- Modifications like
+  - Fly
+  - Noclip
+  - ForceClone
+  - World functions (PostProcessing Editor,...)
+  - Avatar Savings
+  - World Savings
+  - Antis (Implementation of NetworkSanity,...)
+  - Implementation of ReMod.Core
+  - ESP
+  - Custom Ranks (Can be requested on our Discord)
+  - HWID Spoof
+  - And More...
