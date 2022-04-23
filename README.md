@@ -1,2 +1,2 @@
 # Unusual-Mod
-This is a VRChat mod that can be a little different from the usual mods
+![Discord Shield](https://discordapp.com/api/guilds/967152468318363689/widget.png?style=shield)
