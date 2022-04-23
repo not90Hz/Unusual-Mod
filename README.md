@@ -9,7 +9,7 @@ If there is content you would like protected, feel free to contact us and have y
 We have a very simple whitelist/backlist system that protects content creators (upon request).
 As you can see here, the mod is open source and we have nothing to hide.
 
-## What do we offer
+## What do we plan to offer
 
 - Opensource
 - Transperency
