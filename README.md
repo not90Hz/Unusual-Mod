@@ -27,3 +27,6 @@ As you can see here, the mod is open source and we have nothing to hide.
   - Custom Ranks (Can be requested on our Discord)
   - HWID Spoof
   - And More...
+
+## Note
+Using mods violates VRChat's ToS and may result in a ban. Use at your own risk.
