@@ -1,6 +1,5 @@
 # Unusual-Mod
 
-## What we want and are
 This is a mod that is considered malicious in the official VRChat Modding Group.
 We do not consider ourselves malicious. 
 We want to limit the gaming experience of others as little as possible (this excludes mods like Aimbot, etc).
