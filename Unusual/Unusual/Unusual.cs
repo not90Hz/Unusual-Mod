@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MelonLoader;
 using UnusualMod;
+using UnusualMod.Core;
 using UnusualMod.Functions;
 using BuildInfo = UnusualMod.Melon.BuildInfo;
 
@@ -18,12 +19,13 @@ namespace UnusualMod
     {
         public override void OnApplicationStart()
         {
-            base.OnApplicationStart();
+            Settings.Load();
         }
 
         public override void OnApplicationQuit()
         {
-            base.OnApplicationQuit();
+            Settings.Save();
+
         }
 
         public override void OnUpdate()

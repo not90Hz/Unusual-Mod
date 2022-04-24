@@ -15,6 +15,18 @@ namespace UnusualMod
 
         public static bool Noclip { get; set; }
 
+        public static bool RPCEnabled { get; set; }
+
+        public static bool ESPEnabled { get; set; }
+
+        public static string[] ConfigStrings = new string[]
+        {
+            "Fly=",
+            "Noclip=",
+            "RPC=",
+            "ESP"
+        };
+
         public static string ConfigPath 
         { 
             get 
