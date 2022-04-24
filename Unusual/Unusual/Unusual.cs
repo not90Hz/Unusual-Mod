@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MelonLoader;
+using UnityEngine;
 using UnusualMod;
 using UnusualMod.Core;
 using UnusualMod.Functions;
@@ -25,7 +26,7 @@ namespace UnusualMod
         public override void OnApplicationQuit()
         {
             Settings.Save();
-
+            Application.Quit();
         }
 
         public override void OnUpdate()

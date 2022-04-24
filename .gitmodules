@@ -1,0 +1,3 @@
+[submodule "Unusual/Unusual/Implementations/ReMod.Core"]
+	path = Unusual/Unusual/Implementations/ReMod.Core
+	url = https://github.com/RequiDev/ReMod.Core
