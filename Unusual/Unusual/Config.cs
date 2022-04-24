@@ -31,7 +31,7 @@ namespace UnusualMod
         { 
             get 
             {
-                string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "UnusualMod");
+                string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData).Replace("Roaming", "LocalLow") + "/UnusualMod";
                 if (!Directory.Exists(path))
                 {
                     Directory.CreateDirectory(path);
