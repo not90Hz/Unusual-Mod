@@ -10,7 +10,12 @@ namespace UnusualMod.QMenu
     {
         public static void BuildMenu()
         {
-            
+            BuildMenu();
+        }
+
+        public static void BuildTargetMenu()
+        {
+
         }
     }
 }
