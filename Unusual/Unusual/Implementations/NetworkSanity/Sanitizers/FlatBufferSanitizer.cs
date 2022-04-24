@@ -11,6 +11,7 @@ using UnityEngine;
 using VRC;
 using VRC.Networking;
 using Il2CppMethodInfo = NetworkSanity.Core.Il2CppMethodInfo;
+using UnusualMod;
 
 namespace NetworkSanity.Sanitizers
 {
@@ -144,7 +145,7 @@ namespace NetworkSanity.Sanitizers
                 _ourSyncPhysicsDispatchedUpdate = originalMethodPtr;
             }
 
-            UnusualMod.Unusual.Harmony.Patch(
+                Unusual.Harmony.Patch(
                 typeof(FlatBufferNetworkSerializer).GetMethod(nameof(FlatBufferNetworkSerializer
                     .Method_Public_Void_EventData_0)), typeof(FlatBufferSanitizer).GetMethod(nameof(FlatBufferNetworkSerializeReceivePatch), BindingFlags.NonPublic | BindingFlags.Static).ToNewHarmonyMethod());
         }

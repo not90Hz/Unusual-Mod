@@ -9,7 +9,6 @@ using NetworkSanity.Core;
 using Photon.Realtime;
 using UnhollowerBaseLib;
 using VRC.Core;
-using NetworkSanity;
 
 namespace NetworkSanity
 {

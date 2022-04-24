@@ -27,21 +27,6 @@ namespace UnusualMod
             "ESP"
         };
 
-        public static string ConfigPath 
-        { 
-            get 
-            {
-                string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData).Replace("Roaming", "LocalLow") + "/UnusualMod";
-                if (!Directory.Exists(path))
-                {
-                    Directory.CreateDirectory(path);
-                    return path + "/Settings.txt";
-                }
-                else
-                {
-                    return path + "/Settings.txt";
-                }
-            }
-        }
+        public static string ConfigPath { get; set; }
     }
 }
