@@ -26,8 +26,6 @@ As you can see here, the mod is open source and we have nothing to hide.
   - Noclip
   - ForceClone
   - World functions (PostProcessing Editor,...)
-  - Avatar Savings
-  - World Savings
   - Antis (Implementation of NetworkSanity,...)
   - Implementation of ReMod.Core
   - ESP
